@@ -34,6 +34,6 @@ sky:
     # 设置jwt签名加密时使用的秘钥
     admin-secret-key: sky-take-out
     # 设置jwt过期时间
-    admin-ttl: 7200000
+    admin-ttl: 604800000  # 1000 * 60 * 60 * 24 * 7 的计算结果
     # 设置前端传递过来的令牌名称
     admin-token-name: token
