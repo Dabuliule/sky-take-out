@@ -37,3 +37,10 @@ sky:
     admin-ttl: 604800000  # 1000 * 60 * 60 * 24 * 7 的计算结果
     # 设置前端传递过来的令牌名称
     admin-token-name: token
+
+minio:
+  oss:
+    endpoint: ${minio.oss.endpoint}
+    access-key: ${minio.oss.access-key}
+    secret-key: ${minio.oss.secret-key}
+    bucket-name: ${minio.oss.bucket-name}
