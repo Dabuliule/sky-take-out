@@ -2,6 +2,7 @@ package com.sky.dto;
 
 import com.sky.entity.DishFlavor;
 import lombok.Data;
+import lombok.ToString;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
@@ -9,6 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Data
+@ToString
 public class DishDTO implements Serializable {
 
     private Long id;
